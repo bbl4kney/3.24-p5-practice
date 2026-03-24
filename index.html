@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <!-- <style>
+            a {
+                color: red;
+                font-size: x-large;
+                border: 1px solid green;
+            } -->
+        <style>
+            .flexContainer{
+                display: flex;
+                border: 2px dotted red;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+        </style>
+            #con1{
+                border: 1px solid purple;
+            }
+
+            #con2{
+                border: 1px solid green;}
+        </style>
+    </head>
+    <a href="index.html">index</a>
+    <a href="page2.html">Page 2</a>
+    <a href="page3.html">Page 3</a>
+    <h1>index</h1>
+    <div class="flexContainer">
+        <p>Paragraph ingredients (Content)</p>
+        <!-- child 1 -->
+        <h1>h1</h1>
+        <!-- cild 2 -->
+        <h2>h2</h2>
+        <!-- child3 -->
+        <h3>h3</h3>
+        <!-- child 4 -->
+        <p>Paragraph ingredients (Content)</p>
+        <!-- child 5 -->
+        <h1>h1</h1>
+        <!-- cild 6 -->
+        <h2>h2</h2>
+        <!-- child7 -->
+        <h3>h3</h3>
+        <!-- child 8 -->
+        <div id="con1">
+            <!-- container within a container -->
+            <p>container para</p>
+            <div id="con2">
+                <!-- container within a container within another container -->
+                <p>container container para</p>
+            </div>
+        </div>
+    </div>
+</html>
